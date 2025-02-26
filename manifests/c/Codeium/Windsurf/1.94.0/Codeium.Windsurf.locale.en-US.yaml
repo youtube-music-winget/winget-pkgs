@@ -26,17 +26,12 @@ Tags:
 - editor
 - programming
 ReleaseNotes: |-
-  Cascade Memories, Web Search and Docs
-
-  Improvements
-  - Cascade Web search now includes the website description and uses page rank to determine relevance
-  - Improvements to Cascade Auto-Generated Memories (Beta)
+  Patch Fixes
 
   Fixes
-  - Fixed input lag in long Cascade conversations
-  - Increased precision when Cascade makes code edits
-  - Fixed issues around Cascade edits with .gitignore files
-  - Fixed Tab to Jump Quick Setting configuration
+  - Cascade now has a new premium model available: Claude 3.7 Sonnet
+    - Takes 1.0 user prompt credits on every message and 1.0 flow action credits on each tool call
+    - Support for Claude 3.7 Sonnet ships with Thinking, with a 1.5x multiplier on credit cost.
 ReleaseNotesUrl: https://codeium.com/changelog
 PurchaseUrl: https://codeium.com/pricing
 Documentations:
